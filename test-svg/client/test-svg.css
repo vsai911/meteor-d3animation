@@ -1,0 +1,46 @@
+/* CSS declarations go here */
+html, body {
+	height: 100%;
+}
+.viewport {
+	height: 100%;
+}
+.body {
+	font-family: "Helvetica Neue","Helvetica","Arial";
+	font-synthesis:none;
+	text-rendering:optimizeLegibility;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	-moz-font-feature-settings:'liga', 'kern';
+}
+.toolbar {
+	padding: 10px;
+	color: white;
+	min-height: 50px;
+	max-height: 50px;
+	background: rgba(0, 0, 0, 0.85);
+	font-family:"Helvetica Neue","Helvetica","Arial";
+	/*
+	font-synthesis:none;
+	text-rendering:optimizeLegibility;
+	*/
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	-moz-font-feature-settings:'liga', 'kern';
+	font-size: 18px;
+}
+.drawing{
+	height: 60%;
+	padding: 15px;
+	background-color: grey;
+}
+.debug{
+	border: 2px dotted grey;
+}
+.codemirror {
+	height: 40%;
+	background: grey;
+}
+#myModal {
+	top:50%;
+}
